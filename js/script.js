@@ -1,7 +1,7 @@
 'use strict';
 // На следующих занятиях здесь можно добавить обработчики учебных событий.
 // Google Tag устанавливается отдельно в head каждой HTML-страницы.
-const form = document.querySelector('#contact-form');
+const form = document.querySelector('#lead-form');
 if (form) {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -10,4 +10,3 @@ if (form) {
     form.reset();
   });
 }
-
